@@ -1,0 +1,19 @@
+# Keep Dealroom credentials and personal setup details out of Git.
+.env
+*.env
+*.zip
+SETUP.txt
+dealroom-api-analysis.md
+real-data/
+demo/real-fixture.local.js
+
+# Python and local environment artifacts.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Crawl cache (API responses; terms forbid redistributing data)
+data/cache/
+data/
+dist/
